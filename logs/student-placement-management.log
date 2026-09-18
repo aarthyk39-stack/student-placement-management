@@ -1,0 +1,484 @@
+2026-09-18 10:51:06 INFO  c.e.s.StudentPlacementManagementApplication - Starting StudentPlacementManagementApplication using Java 26.0.1 with PID 10596 (C:\Users\HP\Desktop\Training Programs\student-placement-management\target\classes started by HP in C:\Users\HP\Desktop\Training Programs\student-placement-management)
+2026-09-18 10:51:06 INFO  c.e.s.StudentPlacementManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-18 10:51:06 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-18 10:51:06 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-18 10:51:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-18 10:51:14 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 415 ms. Found 11 JPA repository interfaces.
+2026-09-18 10:51:19 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-18 10:51:19 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-18 10:51:19 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-18 10:51:19 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 12633 ms
+2026-09-18 10:51:22 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-18 10:51:22 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-18 10:51:26 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-18 10:51:26 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Starting...
+2026-09-18 10:51:29 INFO  com.zaxxer.hikari.pool.HikariPool - StudentPlacementHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@29987595
+2026-09-18 10:51:29 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Start completed.
+2026-09-18 10:51:29 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_placement_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: student_placement_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-18 10:51:34 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-18 10:51:37 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 10:51:38 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-18 10:51:45 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-09-18 10:51:47 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-18 10:51:50 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-09-18 10:51:51 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-18 10:51:51 INFO  c.e.s.StudentPlacementManagementApplication - Started StudentPlacementManagementApplication in 48.974 seconds (process running for 55.349)
+2026-09-18 10:51:52 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-18 10:51:52 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-18 10:59:15 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-18 10:59:15 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-18 10:59:15 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 10:59:15 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown initiated...
+2026-09-18 10:59:15 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown completed.
+2026-09-18 10:59:35 INFO  c.e.s.StudentPlacementManagementApplication - Starting StudentPlacementManagementApplication using Java 26.0.1 with PID 8412 (C:\Users\HP\Desktop\Training Programs\student-placement-management\target\classes started by HP in C:\Users\HP\Desktop\Training Programs\student-placement-management)
+2026-09-18 10:59:35 INFO  c.e.s.StudentPlacementManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-18 10:59:36 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-18 10:59:36 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-18 10:59:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-18 10:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 379 ms. Found 11 JPA repository interfaces.
+2026-09-18 10:59:45 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-18 10:59:45 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-18 10:59:45 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-18 10:59:45 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 9367 ms
+2026-09-18 10:59:46 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-18 10:59:46 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-18 10:59:48 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-18 10:59:48 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Starting...
+2026-09-18 10:59:50 INFO  com.zaxxer.hikari.pool.HikariPool - StudentPlacementHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d8a2a77
+2026-09-18 10:59:50 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Start completed.
+2026-09-18 10:59:50 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_placement_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: student_placement_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-18 10:59:55 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-18 10:59:56 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 10:59:56 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-18 11:00:01 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-09-18 11:00:02 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-18 11:00:05 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-09-18 11:00:05 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-18 11:00:05 INFO  c.e.s.StudentPlacementManagementApplication - Started StudentPlacementManagementApplication in 31.856 seconds (process running for 33.84)
+2026-09-18 11:00:06 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-18 11:00:06 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-18 11:02:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-18 11:02:26 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-18 11:02:26 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-09-18 11:02:29 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 2718 ms
+2026-09-18 11:03:22 INFO  c.e.s.service.AuthServiceImpl - Registration attempt for username: Rohith
+2026-09-18 11:03:23 INFO  c.e.s.service.AuthServiceImpl - User registered successfully. User ID: 3, Username: Rohith
+2026-09-18 11:03:49 INFO  c.e.s.service.AuthServiceImpl - Registration attempt for username: Rohith
+2026-09-18 11:03:49 WARN  c.e.s.service.AuthServiceImpl - Registration failed. Username already exists: Rohith
+2026-09-18 11:03:49 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.example.studentplacementmanagement.exception.DuplicateResourceException: Username already exists]
+2026-09-18 11:05:17 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: rohith@gmail.com
+2026-09-18 11:05:18 INFO  c.e.s.s.RefreshTokenServiceImpl - Creating refresh token for user ID: 3
+2026-09-18 11:05:18 INFO  c.e.s.s.RefreshTokenServiceImpl - Refresh token created successfully for user ID: 3
+2026-09-18 11:05:18 INFO  c.e.s.service.AuthServiceImpl - User logged in successfully: Rohith
+2026-09-18 11:06:28 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: rohith@gmail.com
+2026-09-18 11:06:28 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-09-18 11:09:09 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-18 11:09:09 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-18 11:09:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:09:09 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown initiated...
+2026-09-18 11:09:09 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown completed.
+2026-09-18 11:09:24 INFO  c.e.s.StudentPlacementManagementApplication - Starting StudentPlacementManagementApplication using Java 26.0.1 with PID 10508 (C:\Users\HP\Desktop\Training Programs\student-placement-management\target\classes started by HP in C:\Users\HP\Desktop\Training Programs\student-placement-management)
+2026-09-18 11:09:24 INFO  c.e.s.StudentPlacementManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-18 11:09:24 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-18 11:09:24 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-18 11:09:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-18 11:09:29 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 289 ms. Found 11 JPA repository interfaces.
+2026-09-18 11:09:32 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-18 11:09:32 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-18 11:09:32 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-18 11:09:32 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 8096 ms
+2026-09-18 11:09:34 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-18 11:09:34 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-18 11:09:35 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-18 11:09:35 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Starting...
+2026-09-18 11:09:36 INFO  com.zaxxer.hikari.pool.HikariPool - StudentPlacementHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7825f794
+2026-09-18 11:09:36 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Start completed.
+2026-09-18 11:09:36 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_placement_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: student_placement_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-18 11:09:39 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-18 11:09:39 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:09:39 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-18 11:09:42 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-09-18 11:09:43 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-18 11:09:45 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-09-18 11:09:45 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-18 11:09:45 INFO  c.e.s.StudentPlacementManagementApplication - Started StudentPlacementManagementApplication in 23.483 seconds (process running for 25.453)
+2026-09-18 11:09:45 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-18 11:09:45 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-18 11:10:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-18 11:10:02 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-18 11:10:02 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-09-18 11:10:02 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: rohith@gmail.com
+2026-09-18 11:10:03 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-09-18 11:10:50 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: rohit@gmail.com
+2026-09-18 11:10:50 WARN  c.e.s.service.AuthServiceImpl - Login failed for username/email: rohit@gmail.com
+2026-09-18 11:10:50 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.example.studentplacementmanagement.exception.BusinessValidationException: Invalid username/email or password]
+2026-09-18 11:11:48 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: rohith@gmail.com
+2026-09-18 11:11:48 INFO  c.e.s.s.RefreshTokenServiceImpl - Creating refresh token for user ID: 3
+2026-09-18 11:11:48 INFO  c.e.s.s.RefreshTokenServiceImpl - Refresh token created successfully for user ID: 3
+2026-09-18 11:11:48 INFO  c.e.s.service.AuthServiceImpl - User logged in successfully: Rohith
+2026-09-18 11:13:49 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-18 11:13:49 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-18 11:13:49 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:13:49 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown initiated...
+2026-09-18 11:13:49 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown completed.
+2026-09-18 11:14:00 INFO  c.e.s.StudentPlacementManagementApplication - Starting StudentPlacementManagementApplication using Java 26.0.1 with PID 11220 (C:\Users\HP\Desktop\Training Programs\student-placement-management\target\classes started by HP in C:\Users\HP\Desktop\Training Programs\student-placement-management)
+2026-09-18 11:14:00 INFO  c.e.s.StudentPlacementManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-18 11:14:00 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-18 11:14:00 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-18 11:14:04 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-18 11:14:04 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 244 ms. Found 11 JPA repository interfaces.
+2026-09-18 11:14:06 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-18 11:14:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-18 11:14:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-18 11:14:06 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 5866 ms
+2026-09-18 11:14:07 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-18 11:14:07 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-18 11:14:08 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-18 11:14:08 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Starting...
+2026-09-18 11:14:09 INFO  com.zaxxer.hikari.pool.HikariPool - StudentPlacementHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@26398675
+2026-09-18 11:14:09 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Start completed.
+2026-09-18 11:14:09 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_placement_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: student_placement_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-18 11:14:12 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-18 11:14:12 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:14:12 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-18 11:14:15 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-09-18 11:14:16 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-18 11:14:17 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-09-18 11:14:18 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-18 11:14:18 INFO  c.e.s.StudentPlacementManagementApplication - Started StudentPlacementManagementApplication in 18.913 seconds (process running for 20.499)
+2026-09-18 11:14:18 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-18 11:14:18 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-18 11:14:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-18 11:14:29 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-18 11:14:29 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-09-18 11:21:35 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-18 11:21:35 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-18 11:21:35 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:21:35 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown initiated...
+2026-09-18 11:21:35 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown completed.
+2026-09-18 11:21:45 INFO  c.e.s.StudentPlacementManagementApplication - Starting StudentPlacementManagementApplication using Java 26.0.1 with PID 9300 (C:\Users\HP\Desktop\Training Programs\student-placement-management\target\classes started by HP in C:\Users\HP\Desktop\Training Programs\student-placement-management)
+2026-09-18 11:21:45 INFO  c.e.s.StudentPlacementManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-18 11:21:46 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-18 11:21:46 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-18 11:21:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-18 11:21:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 256 ms. Found 11 JPA repository interfaces.
+2026-09-18 11:21:51 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-18 11:21:51 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-18 11:21:51 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-18 11:21:52 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 5924 ms
+2026-09-18 11:21:52 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-18 11:21:52 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-18 11:21:53 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-18 11:21:53 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Starting...
+2026-09-18 11:21:55 INFO  com.zaxxer.hikari.pool.HikariPool - StudentPlacementHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d7f1017
+2026-09-18 11:21:55 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Start completed.
+2026-09-18 11:21:55 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_placement_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: student_placement_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-18 11:21:58 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-18 11:21:58 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:21:58 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-18 11:22:02 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-09-18 11:22:03 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-18 11:22:05 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-09-18 11:22:05 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-18 11:22:05 INFO  c.e.s.StudentPlacementManagementApplication - Started StudentPlacementManagementApplication in 20.751 seconds (process running for 22.298)
+2026-09-18 11:22:05 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-18 11:22:05 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-18 11:22:11 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-18 11:22:11 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-18 11:22:11 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2026-09-18 11:22:14 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 2699 ms
+2026-09-18 11:22:48 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: rohith@gmail.com
+2026-09-18 11:22:49 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2026-09-18 11:23:00 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: rohith@gmail.com
+2026-09-18 11:23:01 INFO  c.e.s.s.RefreshTokenServiceImpl - Creating refresh token for user ID: 3
+2026-09-18 11:23:01 INFO  c.e.s.s.RefreshTokenServiceImpl - Refresh token created successfully for user ID: 3
+2026-09-18 11:23:01 INFO  c.e.s.service.AuthServiceImpl - User logged in successfully: Rohith
+2026-09-18 11:27:28 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-18 11:27:28 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-18 11:27:28 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:27:28 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown initiated...
+2026-09-18 11:27:28 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown completed.
+2026-09-18 11:27:36 INFO  c.e.s.StudentPlacementManagementApplication - Starting StudentPlacementManagementApplication using Java 26.0.1 with PID 2964 (C:\Users\HP\Desktop\Training Programs\student-placement-management\target\classes started by HP in C:\Users\HP\Desktop\Training Programs\student-placement-management)
+2026-09-18 11:27:36 INFO  c.e.s.StudentPlacementManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-18 11:27:37 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-18 11:27:37 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-18 11:27:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-18 11:27:41 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 246 ms. Found 11 JPA repository interfaces.
+2026-09-18 11:27:43 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-18 11:27:43 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-18 11:27:43 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-18 11:27:43 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 6633 ms
+2026-09-18 11:27:44 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-18 11:27:44 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-18 11:27:45 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-18 11:27:45 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Starting...
+2026-09-18 11:27:46 INFO  com.zaxxer.hikari.pool.HikariPool - StudentPlacementHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cd92432
+2026-09-18 11:27:46 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Start completed.
+2026-09-18 11:27:46 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_placement_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: student_placement_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-18 11:27:49 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-18 11:27:50 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:27:50 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-18 11:27:53 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-09-18 11:27:54 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-18 11:27:56 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-09-18 11:27:56 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-18 11:27:56 INFO  c.e.s.StudentPlacementManagementApplication - Started StudentPlacementManagementApplication in 20.747 seconds (process running for 22.267)
+2026-09-18 11:27:56 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-18 11:27:56 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-18 11:28:01 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-18 11:28:01 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-18 11:28:01 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-18 11:28:09 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 2469 ms
+2026-09-18 11:28:46 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: rohith@gmail.com
+2026-09-18 11:28:47 INFO  c.e.s.s.RefreshTokenServiceImpl - Creating refresh token for user ID: 3
+2026-09-18 11:28:47 INFO  c.e.s.s.RefreshTokenServiceImpl - Refresh token created successfully for user ID: 3
+2026-09-18 11:28:47 INFO  c.e.s.service.AuthServiceImpl - User logged in successfully: Rohith
+2026-09-18 11:29:16 INFO  c.e.s.service.StudentServiceImpl - Fetching all students
+2026-09-18 11:29:16 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: Sort expression '["string"]: ASC' must only contain property references or aliases used in the select clause; If you really want to use something other than that for sorting, please use JpaSort.unsafe(…)]
+2026-09-18 11:33:22 INFO  c.e.s.service.StudentServiceImpl - Fetching all students
+2026-09-18 11:33:22 WARN  o.s.d.w.c.SpringDataJackson3Configuration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-09-18 11:34:24 INFO  c.e.s.service.AuthServiceImpl - Registration attempt for username: company01
+2026-09-18 11:34:24 INFO  c.e.s.service.AuthServiceImpl - User registered successfully. User ID: 4, Username: company01
+2026-09-18 11:35:08 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: company01@gmail.com
+2026-09-18 11:35:08 INFO  c.e.s.s.RefreshTokenServiceImpl - Creating refresh token for user ID: 4
+2026-09-18 11:35:08 INFO  c.e.s.s.RefreshTokenServiceImpl - Refresh token created successfully for user ID: 4
+2026-09-18 11:35:08 INFO  c.e.s.service.AuthServiceImpl - User logged in successfully: company01
+2026-09-18 11:41:12 INFO  c.e.s.service.CompanyServiceImpl - Fetching all companies
+2026-09-18 11:41:12 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: Sort expression '["string"]: ASC' must only contain property references or aliases used in the select clause; If you really want to use something other than that for sorting, please use JpaSort.unsafe(…)]
+2026-09-18 11:41:25 INFO  c.e.s.service.CompanyServiceImpl - Fetching all companies
+2026-09-18 11:42:48 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-18 11:42:48 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-18 11:42:48 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:42:48 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown initiated...
+2026-09-18 11:42:48 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown completed.
+2026-09-18 11:42:58 INFO  c.e.s.StudentPlacementManagementApplication - Starting StudentPlacementManagementApplication using Java 26.0.1 with PID 2948 (C:\Users\HP\Desktop\Training Programs\student-placement-management\target\classes started by HP in C:\Users\HP\Desktop\Training Programs\student-placement-management)
+2026-09-18 11:42:58 INFO  c.e.s.StudentPlacementManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-18 11:42:59 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-18 11:42:59 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-18 11:43:03 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-18 11:43:04 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 305 ms. Found 11 JPA repository interfaces.
+2026-09-18 11:43:07 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-18 11:43:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-18 11:43:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-18 11:43:08 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 8925 ms
+2026-09-18 11:43:08 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-18 11:43:09 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-18 11:43:10 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-18 11:43:10 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Starting...
+2026-09-18 11:43:11 INFO  com.zaxxer.hikari.pool.HikariPool - StudentPlacementHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@517d2abb
+2026-09-18 11:43:11 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Start completed.
+2026-09-18 11:43:12 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_placement_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: student_placement_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-18 11:43:15 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-18 11:43:16 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:43:16 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-18 11:43:20 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-09-18 11:43:21 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-18 11:43:24 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-09-18 11:43:25 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-18 11:43:25 INFO  c.e.s.StudentPlacementManagementApplication - Started StudentPlacementManagementApplication in 28.042 seconds (process running for 29.59)
+2026-09-18 11:43:25 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-18 11:43:25 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-18 11:44:49 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-18 11:44:49 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-18 11:44:49 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-09-18 11:48:08 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-18 11:48:08 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-18 11:48:08 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:48:08 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown initiated...
+2026-09-18 11:48:08 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown completed.
+2026-09-18 11:48:19 INFO  c.e.s.StudentPlacementManagementApplication - Starting StudentPlacementManagementApplication using Java 26.0.1 with PID 11380 (C:\Users\HP\Desktop\Training Programs\student-placement-management\target\classes started by HP in C:\Users\HP\Desktop\Training Programs\student-placement-management)
+2026-09-18 11:48:19 INFO  c.e.s.StudentPlacementManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-18 11:48:19 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-18 11:48:19 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-18 11:48:23 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-18 11:48:24 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 375 ms. Found 11 JPA repository interfaces.
+2026-09-18 11:48:27 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-18 11:48:27 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-18 11:48:27 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-18 11:48:27 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 8128 ms
+2026-09-18 11:48:28 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-18 11:48:28 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-18 11:48:31 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-18 11:48:31 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Starting...
+2026-09-18 11:48:32 INFO  com.zaxxer.hikari.pool.HikariPool - StudentPlacementHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@172f8140
+2026-09-18 11:48:32 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Start completed.
+2026-09-18 11:48:33 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_placement_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: student_placement_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-18 11:48:37 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-18 11:48:37 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 11:48:38 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-18 11:48:43 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-09-18 11:48:44 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-18 11:48:47 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-09-18 11:48:48 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-18 11:48:48 INFO  c.e.s.StudentPlacementManagementApplication - Started StudentPlacementManagementApplication in 31.047 seconds (process running for 32.568)
+2026-09-18 11:48:48 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-18 11:48:48 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-18 11:48:56 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-18 11:48:56 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-18 11:48:56 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-09-18 11:49:00 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 2601 ms
+2026-09-18 11:49:40 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: rohith@gmail.com
+2026-09-18 11:49:41 INFO  c.e.s.s.RefreshTokenServiceImpl - Creating refresh token for user ID: 3
+2026-09-18 11:49:41 INFO  c.e.s.s.RefreshTokenServiceImpl - Refresh token created successfully for user ID: 3
+2026-09-18 11:49:41 INFO  c.e.s.service.AuthServiceImpl - User logged in successfully: Rohith
+2026-09-18 11:50:34 INFO  c.e.s.service.StudentServiceImpl - Fetching all students
+2026-09-18 11:50:34 WARN  o.s.d.w.c.SpringDataJackson3Configuration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-09-18 12:03:33 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: company01@gmail.com
+2026-09-18 12:03:33 INFO  c.e.s.s.RefreshTokenServiceImpl - Creating refresh token for user ID: 4
+2026-09-18 12:03:33 INFO  c.e.s.s.RefreshTokenServiceImpl - Refresh token created successfully for user ID: 4
+2026-09-18 12:03:33 INFO  c.e.s.service.AuthServiceImpl - User logged in successfully: company01
+2026-09-18 12:11:13 INFO  c.e.s.service.AuthServiceImpl - Login attempt for: company01@gmail.com
+2026-09-18 12:11:13 INFO  c.e.s.s.RefreshTokenServiceImpl - Creating refresh token for user ID: 4
+2026-09-18 12:11:13 INFO  c.e.s.s.RefreshTokenServiceImpl - Refresh token created successfully for user ID: 4
+2026-09-18 12:11:13 INFO  c.e.s.service.AuthServiceImpl - User logged in successfully: company01
+2026-09-18 12:26:03 INFO  c.e.s.service.CompanyServiceImpl - Fetching company with ID: 1
+2026-09-18 12:26:03 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.example.studentplacementmanagement.exception.ResourceNotFoundException: Company not found with ID: 1]
+2026-09-18 12:27:58 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.studentplacementmanagement.enums.Role` from String "Company": not one of the values accepted for Enum class: [STUDENT, PLACEMENT_OFFICER, COMPANY, ADMIN]]
+2026-09-18 12:28:24 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-18 12:28:24 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-18 12:28:24 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 12:28:24 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown initiated...
+2026-09-18 12:28:24 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown completed.
+2026-09-18 12:28:30 INFO  c.e.s.StudentPlacementManagementApplication - Starting StudentPlacementManagementApplication using Java 26.0.1 with PID 3344 (C:\Users\HP\Desktop\Training Programs\student-placement-management\target\classes started by HP in C:\Users\HP\Desktop\Training Programs\student-placement-management)
+2026-09-18 12:28:30 INFO  c.e.s.StudentPlacementManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-09-18 12:28:30 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-18 12:28:30 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-18 12:28:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-18 12:28:35 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 537 ms. Found 11 JPA repository interfaces.
+2026-09-18 12:28:37 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-09-18 12:28:37 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-09-18 12:28:37 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-18 12:28:38 INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 7735 ms
+2026-09-18 12:28:38 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-18 12:28:39 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-09-18 12:28:40 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-18 12:28:40 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Starting...
+2026-09-18 12:28:41 INFO  com.zaxxer.hikari.pool.HikariPool - StudentPlacementHikariPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d7f1017
+2026-09-18 12:28:41 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Start completed.
+2026-09-18 12:28:41 INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/student_placement_management]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.43
+	Default catalog/schema: student_placement_management/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-18 12:28:46 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-18 12:28:46 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 12:28:47 INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-18 12:28:51 INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-09-18 12:28:53 WARN  o.s.b.j.a.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-18 12:28:55 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-09-18 12:28:56 INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-09-18 12:28:56 INFO  c.e.s.StudentPlacementManagementApplication - Started StudentPlacementManagementApplication in 27.293 seconds (process running for 28.891)
+2026-09-18 12:28:56 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-18 12:28:56 WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-18 12:29:03 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-18 12:29:03 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-09-18 12:29:03 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-09-18 12:29:04 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.example.studentplacementmanagement.enums.Role` from String "Company": not one of the values accepted for Enum class: [STUDENT, PLACEMENT_OFFICER, COMPANY, ADMIN]]
+2026-09-18 12:38:16 INFO  c.e.s.service.AuthServiceImpl - Registration attempt for username: company02
+2026-09-18 12:38:17 INFO  c.e.s.service.AuthServiceImpl - User registered successfully. User ID: 5, Username: company02
+2026-09-18 12:51:09 INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-18 12:51:09 INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-09-18 12:51:09 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-18 12:51:09 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown initiated...
+2026-09-18 12:51:09 INFO  com.zaxxer.hikari.HikariDataSource - StudentPlacementHikariPool - Shutdown completed.
